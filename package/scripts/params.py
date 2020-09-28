@@ -30,7 +30,7 @@ component_directory = Script.get_component_from_role(SERVER_ROLE_DIRECTORY_MAP, 
 config = Script.get_config()
 tmp_dir = Script.get_tmp_dir()
 stack_root = Script.get_stack_root()
-# Hue download url
+# Hue download url （local yum repo path）
 download_url = 'http://xxxxxxxxxxxxxxx/hortonworks/other/hue-4.6.0.tgz'
 # New Cluster Stack Version that is defined during the RESTART of a Rolling Upgrade
 version = default("/commandParams/version", None)
